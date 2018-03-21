@@ -1,13 +1,9 @@
-import Link from "next/link";
+import Layout from '../comps/BaseLayout'
 
 const Index = () => (
-  <div>
-    <Link href="/about?nar=duy">
-      <button>Go to About Page</button>
-    </Link>
-
+  <Layout>
     <p>Hello Duy</p>
-  </div>
+  </Layout>
 );
 
 export default Index;
